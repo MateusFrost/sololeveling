@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shadows-into light-regular {
+    font-family: "Shadows Into Light", cursive;
+  }
+
+  .protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+   
+  }
+  
+  
+  header,
+ section h2,
+ section h3{
+    font-family: "Protest Revolution", sans-serif;   
+}
+
+body {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    background-color: #5c5c5c;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #14151d;
+    color: #ecf0f1;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+header nav li a:hover {
+    color: #0616fc;
+    transform: scale(1.1);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div .capa img {
+    margin-right: 32px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+section .capa {
+    width: 50%;
+    height: auto;
+}
+
+section p {
+    color: rgb(255, 255, 255);
+    margin-right: 32px;
+    margin-left: 32px;
+}
+
+
+.ultimoep p {
+    color: rgb(255, 255, 255);
+}
+
+.ultimoep h2 {
+    color: #14151d;
+}
+
+.resumo-ep {
+    margin: 32px;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    padding: 10px;
+    background-color: #14151d;
+}
+
+.resumo-ep img {
+    width: 230px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.info-ep h2 {
+    margin: 0;
+    font-size: 18px;
+}
+.info-ep h3 {
+    color: #ffffff;
+}
+
+.info-ep p {
+    margin: 5px 0 0;
+    font-size: 14px;
+}
+
+.data-de-lancamento p {
+    color: #ffffff;
+}
+
+.resumo-ep a {
+    font-family: "Protest Revolution", sans-serif;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: #0a0a0a;
+    margin-left: auto;
+    margin-top: auto;
+    width: 75px;
+    height: auto;
+    padding: 3px;
+    transition: transform 0.3s ease;
+}   
+
+
+.resumo-ep a:hover {
+    background-color: #0616fc;
+    color: #ecf0f1;
+    transform: scale(1.1);
+}
+
+.menu-top a {
+    font-family: "Protest Revolution", sans-serif;
+    text-decoration: none;
+    
+}   
+
+
+.menu-top a:hover {
+    background-color: #0616fc;
+    color: #ecf0f1;
+    transform: scale(1.1);
+}
+
+form input,
+form button {
+    display: block;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+section #notify h3 {
+    color: #14151d;
+}
+
+.notify .container {
+    display: block;
+}
+
+.notify {
+    color: #14151d;
+}
+
+#receber-notify {
+    margin-top: 15px;
+    margin-left: 32px;
+    justify-content: space-between;
+    display: flex;
+}
+
+footer {
+    background-color: #14151d;
+    color: #ecf0f1;
+    padding: 16px 0;
+    
+}
+
+form button {
+    background-color: #14151d;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0616fc;
+}
+
+input:focus, textarea:focus{
+        outline-color: #14151d;
+}
